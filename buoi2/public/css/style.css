@@ -1,0 +1,61 @@
+/* Custom styles for Shop Online */
+body {
+    background-color: #f8f9fa;
+    color: #333333;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+.card {
+    border-radius: 0.75rem;
+    border: 1px solid rgba(0,0,0,0.075);
+}
+
+.card-header {
+    border-top-left-radius: 0.75rem !important;
+    border-top-right-radius: 0.75rem !important;
+}
+
+.table {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.form-control, .form-select {
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.85rem;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Sidebar styling for admin */
+nav.bg-dark {
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+nav.bg-dark .nav-link {
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+nav.bg-dark .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff !important;
+}
+
+nav.bg-dark .nav-link.active {
+    background-color: #0d6efd;
+    color: #fff !important;
+}
